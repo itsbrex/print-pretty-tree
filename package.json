@@ -1,0 +1,17 @@
+{
+  "name": "print-tree",
+  "version": "1.0.0",
+  "main": "pt.py",
+  "author": {
+    "name": "Brian Roach",
+    "url": "https://github.com/itsbrex"
+    },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "tree": "python3 ptree.py"
+  }
+}
