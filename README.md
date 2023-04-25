@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itsbrex/print-pretty-tree/CI?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/print-pretty-tree/workflows/release_to_pypi.yml) 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itsbrex/print-pretty-tree/CI?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/print-pretty-tree/actions/workflows/release_to_pypi.yml) 
 
 [![npm](https://img.shields.io/npm/v/print-pretty-tree?color=5ccfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![npm](https://img.shields.io/npm/dt/print-pretty-tree?color=5ccfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![GitHub](https://img.shields.io/github/license/itsbrex/print-pretty-tree?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/print-pretty-tree/blob/main/LICENSE)
 
