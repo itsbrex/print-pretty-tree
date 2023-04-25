@@ -8,30 +8,59 @@
 
 <div align="center">
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itsbrex/print-pretty-tree/CI?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/print_pretty_tree/ac-io-s/workflows/release_to_pypi.yml) 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itsbrex/print-pretty-tree/CI?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/print-pretty-tree/workflows/release_to_pypi.yml) 
 
-[![npm](https://img.shields.io/npm/v/print_pretty_tree?color-5-cfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![npm](https://img.shields.io/npm/dt/print_pretty_tree?color-5-cfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![GitHub](https://img.shields.io/github/license/itsbrex/print_pretty_tree?color-5-cfd6&style=flat-square)](https://github.com/itsbrex/print_pretty_tree/blob--ain/LICENSE)
+[![npm](https://img.shields.io/npm/v/print-pretty-tree?color=5ccfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![npm](https://img.shields.io/npm/dt/print-pretty-tree?color=5ccfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![GitHub](https://img.shields.io/github/license/itsbrex/print-pretty-tree?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/print-pretty-tree/blob/main/LICENSE)
 
 </div>
 
-## Installation  
-To install `print_pretty_tree` globally, use your preferred package manager like `pnpm`, `yarn`, `npm`, or `bun`.
-```bash
-pnpm i -g print_pretty_tree
-```
-## Usage  
-Navigate to any folder and run `print_pretty_tree`. The script will recursively pretty print the directory structure.
->By default, `print_pretty_tree` excludes certain folders and file patterns like `node_modules` and `.git` to make the output more manageable.  
+## Installation
 
-If installed globally, you can just run `print_pretty_tree` in any directory:
+To install `print_pretty_tree`, you can use either `pip` or other package managers like `npm`, `pnpm`, or `yarn`.
+
+### Install using pip
+
+If you have Python and `pip` installed, you can run the following command:
+
+```bash
+pip install print_pretty_tree
+```
+
+### Install using other package managers
+
+```bash
+# Using npm
+npm i -g print-pretty-tree
+
+# Using pnpm
+pnpm i -g print_pretty_tree
+
+# Using yarn
+yarn global add print-pretty-tree
+```
+
+## Usage
+
+Once you have installed `print_pretty_tree`, you can run the script in any directory.
+
+### Using pip installation
+
+If you have installed `print_pretty_tree` using `pip`, you can run the following command in any directory:
+
 ```bash
 print_pretty_tree
 ```
 
-Or via `npx`:
+### Using other package managers
+
+If you have installed the JavaScript version of `print_pretty_tree` using `npm`, `pnpm`, or `yarn`, you can run the following commands in any directory:
+
 ```bash
-npx print_pretty_tree
+# Using npm, pnpm, or yarn
+print-pretty-tree
 ```
+
+By default, the script excludes certain folders and file patterns like `node_modules` and `.git` to make the output more manageable. The script will recursively pretty print the directory structure.
 
 
 ## Customization
@@ -40,9 +69,10 @@ npx print_pretty_tree
 
 ## Contributing 
 
-If you find any bugs or want to suggest new features for `print_pretty_tree`, please feel free to contribute by submitting an issue or pull request.
+If you find any bugs or want to suggest new features for `print_pretty_tree`, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/print-pretty-tree/issues) or a [pull request](https://github.com/itsbrex/print-pretty-tree/pulls).
 
-Contributions are welcomed! This project follows the all-contributors spec. ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+## Contributors ✨
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/print_pretty_tree?color=ee8449&style=flat-square)](#Contributing)
@@ -57,7 +87,7 @@ Contributions are welcomed! This project follows the all-contributors spec. ([em
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
+This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind welcome!
 
 ## License
 
