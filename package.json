@@ -12,6 +12,6 @@
 		"url": "https://github.com/itsbrex/ptree.git"
 	},
 	"scripts": {
-		"tree": "python3 ptree.py"
+		"ptree": "python3 ptree.py"
 	}
 }
