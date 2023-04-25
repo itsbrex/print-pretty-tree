@@ -1,35 +1,36 @@
-# Pretty Tree
+# Print Pretty Tree
 
-`pretty-tree` is a simple Python script that displays the directory tree of the current working directory with color-coded output for easy file identification.
+`print_pretty_tree` is a simple Python script that displays the directory tree of the current working directory with color-coded output for easy file identification.
 
-
-![Alt text](pretty-tree-output.jpg)
+<p align="center">
+  <img width="460"  src="https://i.imgur.com/GSO6vmJ.jpg">
+</p>
 
 <div align="center">
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itsbrex/ptree/CI?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/ptree/actions/workflows/release_to_pypi.yml) 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itsbrex/print-pretty-tree/CI?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/print_pretty_tree/ac-io-s/workflows/release_to_pypi.yml) 
 
-[![npm](https://img.shields.io/npm/v/ptree?color=5ccfd6&style=flat-square)](https://www.npmjs.com/package/ptree) [![npm](https://img.shields.io/npm/dt/ptree?color=5ccfd6&style=flat-square)](https://www.npmjs.com/package/ptree) [![GitHub](https://img.shields.io/github/license/itsbrex/ptree?color=5ccfd6&style=flat-square)](https://github.com/itsbrex/ptree/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/print_pretty_tree?color-5-cfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![npm](https://img.shields.io/npm/dt/print_pretty_tree?color-5-cfd6&style=flat-square)](https://www.npmjs.com/package/print-pretty-tree) [![GitHub](https://img.shields.io/github/license/itsbrex/print_pretty_tree?color-5-cfd6&style=flat-square)](https://github.com/itsbrex/print_pretty_tree/blob--ain/LICENSE)
 
 </div>
 
 ## Installation  
-To install `ptree` globally, use your preferred package manager like `pnpm`, `yarn`, `npm`, or `bun`.
+To install `print_pretty_tree` globally, use your preferred package manager like `pnpm`, `yarn`, `npm`, or `bun`.
 ```bash
-pnpm i -g ptree
+pnpm i -g print_pretty_tree
 ```
 ## Usage  
-Navigate to any folder and run `ptree`. The script will recursively pretty print the directory structure.
->By default, `ptree` excludes certain folders and file patterns like `node_modules` and `.git` to make the output more manageable.  
+Navigate to any folder and run `print_pretty_tree`. The script will recursively pretty print the directory structure.
+>By default, `print_pretty_tree` excludes certain folders and file patterns like `node_modules` and `.git` to make the output more manageable.  
 
-If installed globally, you can just run `ptree` in any directory:
+If installed globally, you can just run `print_pretty_tree` in any directory:
 ```bash
-ptree
+print_pretty_tree
 ```
 
 Or via `npx`:
 ```bash
-npx ptree
+npx print_pretty_tree
 ```
 
 
@@ -39,12 +40,12 @@ npx ptree
 
 ## Contributing 
 
-If you find any bugs or want to suggest new features for `ptree`, please feel free to contribute by submitting an issue or pull request.
+If you find any bugs or want to suggest new features for `print_pretty_tree`, please feel free to contribute by submitting an issue or pull request.
 
 Contributions are welcomed! This project follows the all-contributors spec. ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/ptree?color=ee8449&style=flat-square)](#Contributing)
+[![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/print_pretty_tree?color=ee8449&style=flat-square)](#Contributing)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 

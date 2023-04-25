@@ -1,17 +1,17 @@
 {
-	"name": "pretty-tree",
-	"version": "0.0.0",
-	"main": "pretty-tree.py",
-	"author": {
-		"name": "Brian Roach",
-		"url": "https://github.com/itsbrex"
-	},
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/itsbrex/pretty-tree.git"
-	},
-	"scripts": {
-		"ptree": "python3 ptree.py"
-	}
+  "name": "print-pretty-tree",
+  "version": "0.0.0",
+  "main": "print_pretty_tree.py",
+  "author": {
+    "name": "Brian Roach",
+    "url": "https://github.com/itsbrex"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsbrex/print-pretty-tree.git"
+  },
+  "scripts": {
+    "ptree": "python3 print_pretty_tree.py"
+  }
 }
