@@ -1,6 +1,6 @@
 {
   "name": "print-pretty-tree",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "print_pretty_tree.py",
   "author": {
     "name": "Brian Roach",
