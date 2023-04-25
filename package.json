@@ -1,7 +1,7 @@
 {
 	"name": "pretty-tree",
 	"version": "0.0.0",
-	"main": "ptree.py",
+	"main": "pretty-tree.py",
 	"author": {
 		"name": "Brian Roach",
 		"url": "https://github.com/itsbrex"
@@ -9,7 +9,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/itsbrex/ptree.git"
+		"url": "https://github.com/itsbrex/pretty-tree.git"
 	},
 	"scripts": {
 		"ptree": "python3 ptree.py"

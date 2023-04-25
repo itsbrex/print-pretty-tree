@@ -1,12 +1,9 @@
 # Pretty Tree
 
-aka `ptree` is a simple Python script that displays the directory tree of the current working directory with color-coded output for easy file identification.
+`pretty-tree` is a simple Python script that displays the directory tree of the current working directory with color-coded output for easy file identification.
 
-<p align="center">
 
-  <img src="https://media.cleanshot.cloud/media/29602/2iwEEFcVdmbxvz3LRfLlywbGOs9gq4DeLP3hzulc.jpeg?Expires=1682428574&Signature=F7WeG7zSc8ceyNBTbYYpUfSRMrOwynn3Hp9Loafa0wbMDSaufd6qv5nM9RWEodmjojEPMdNW6Dxmm1L2j6VrUwW3itaLbfZiXrd7zhPpv28aWdkQQmPe9jXxcvqv-7-smwPu05l19GXzPp5SaSN9CsZkfXGqAJY-w2JOSIZdPmAsrBnifGkPEWdbIQsh6dWbz~rSfT2-oBx7r17sk0sIcS1PXzT~1Zv0cEV1hsk~dsonz-~xVjCvOIl8cQUirKLR17rU2rbCF6it7FdAd59sfRGi3AwihG2fjSQeIUCFgQLDaPKMJIvhsNshXtrY1aQx5TCAgnFGP1954J3jCvAl6Q__&Key-Pair-Id=K269JMAT9ZF4GZ" alt="example image" style="border-radius:25px; width:35%">
-  
-</p>
+![Alt text](pretty-tree-output.jpg)
 
 <div align="center">
 
