@@ -1,4 +1,4 @@
-name: Publish print-pretty-tree to PyPI / GitHub
+name: Publish print_pretty_tree to PyPI / GitHub
 
 on:
   push:
