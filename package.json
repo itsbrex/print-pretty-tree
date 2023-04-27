@@ -1,6 +1,6 @@
 {
   "name": "print-pretty-tree",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple Python script that displays the directory tree of the current working directory with color-coded output for easy file identification.",
   "keywords": [
     "directory, tree, pretty-print, file-system, visualization, color-coded, file-identification, command-line, CLI, directory-structure"
@@ -15,8 +15,6 @@
   },
   "main": "ptree.py",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "pt": "python3 ptree.py",
     "ptree": "python3 ptree.py"
