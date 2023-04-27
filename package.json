@@ -1,17 +1,31 @@
 {
   "name": "print-pretty-tree",
-  "version": "0.0.1",
-  "main": "print_pretty_tree.py",
+  "version": "0.0.3",
+  "description": "A simple Python script that displays the directory tree of the current working directory with color-coded output for easy file identification.",
+  "keywords": [
+    "directory, tree, pretty-print, file-system, visualization, color-coded, file-identification, command-line, CLI, directory-structure"
+  ],
   "author": {
-    "name": "Brian Roach",
-    "url": "https://github.com/itsbrex"
+    "name": "itsbrex",
+    "email": "itsbrexnpm@gmail.com"
   },
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/itsbrex/print-pretty-tree.git"
   },
+  "main": "ptree.py",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "ptree": "python3 print_pretty_tree.py"
+    "pt": "python3 ptree.py",
+    "ptree": "python3 ptree.py"
+  },
+  "homepage": "https://github.com/itsbrex/print-pretty-tree",
+  "bugs": {
+    "url": "https://github.com/itsbrex/print-pretty-tree/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
