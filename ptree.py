@@ -14,29 +14,29 @@ EXCLUDED_FILE_PATTERNS = {'*.log', 'yarn.lock', 'package-lock.json', '*.pyc', '*
 
 # Define file type colors
 FILE_TYPE_COLORS = {
-    '.md': Fore.CYAN,       # Markdown files
-    '.json': Fore.YELLOW,   # JSON files
-    '.py': Fore.GREEN,      # Python files
-    '.js': Fore.BLUE,       # JavaScript files
-    '.html': Fore.MAGENTA,  # HTML files
-    '.css': Fore.CYAN,      # CSS files
-    '.txt': Fore.WHITE,     # Text files
-    '.csv': Fore.YELLOW,    # CSV files
-    '.xml': Fore.MAGENTA,   # XML files
-    '.yml': Fore.YELLOW,    # YAML files
-    '.yaml': Fore.YELLOW,   # YAML files
-    '.ts': Fore.BLUE,       # TypeScript files
-    '.jsx': Fore.BLUE,      # JSX files
-    '.tsx': Fore.BLUE,      # TypeScript JSX files
-    '.sh': Fore.GREEN,      # Shell script files
-    '.log': Fore.RED,       # Log files
-    '.ini': Fore.YELLOW,    # INI files
-    '.sql': Fore.CYAN,      # SQL files
-    '.java': Fore.BLUE,     # Java files
-    '.c': Fore.BLUE,        # C files
-    '.cpp': Fore.BLUE,      # C++ files
-    '.h': Fore.BLUE,        # Header files
-    '.hpp': Fore.BLUE,      # C++ Header files
+    '.md'  : Fore.CYAN,    # Markdown files
+    '.json': Fore.YELLOW,  # JSON files
+    '.py'  : Fore.GREEN,   # Python files
+    '.js'  : Fore.BLUE,    # JavaScript files
+    '.html': Fore.MAGENTA, # HTML files
+    '.css' : Fore.CYAN,    # CSS files
+    '.txt' : Fore.WHITE,   # Text files
+    '.csv' : Fore.YELLOW,  # CSV files
+    '.xml' : Fore.MAGENTA, # XML files
+    '.yml' : Fore.YELLOW,  # YAML files
+    '.yaml': Fore.YELLOW,  # YAML files
+    '.ts'  : Fore.BLUE,    # TypeScript files
+    '.jsx' : Fore.BLUE,    # JSX files
+    '.tsx' : Fore.BLUE,    # TypeScript JSX files
+    '.sh'  : Fore.GREEN,   # Shell script files
+    '.log' : Fore.RED,     # Log files
+    '.ini' : Fore.YELLOW,  # INI files
+    '.sql' : Fore.CYAN,    # SQL files
+    '.java': Fore.BLUE,    # Java files
+    '.c'   : Fore.BLUE,    # C files
+    '.cpp' : Fore.BLUE,    # C++ files
+    '.h'   : Fore.BLUE,    # Header files
+    '.hpp' : Fore.BLUE,    # C++ Header files
     # Add more file types and colors here as needed
 }
 
