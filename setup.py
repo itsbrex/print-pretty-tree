@@ -12,7 +12,7 @@ requirements = []
 
 setup(
     name="print-pretty-tree",
-    version="0.0.3",
+    version="0.0.4",
     author="itsbrex",
     author_email="itsbrexnpm@gmail.com",
     description="A simple Python script that displays the directory tree of the current working directory with color-coded output for easy file identification.",
